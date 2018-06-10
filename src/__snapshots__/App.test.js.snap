@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App/> mount rendering matches the snapshot 1`] = `
+<App>
+  <div
+    className="App"
+  >
+    <header
+      className="App-header"
+    >
+      <img
+        alt="logo"
+        className="App-logo"
+        src="logo.svg"
+      />
+      <h1
+        className="App-title"
+      >
+        Welcome to React
+      </h1>
+    </header>
+    <ul>
+      <li>
+        Test 1
+      </li>
+      <li>
+        Test 2
+      </li>
+      <li>
+        Test 3
+      </li>
+    </ul>
+    <h3
+      className="blue"
+    >
+      Everyone Okay!
+    </h3>
+    <p
+      className="App-intro"
+    >
+      To get started, edit 
+      <code>
+        src/App.js
+      </code>
+       and save to reload.
+    </p>
+    <p
+      className="button-state"
+    >
+      No!
+    </p>
+    <button
+      onClick={[Function]}
+    >
+      Click
+    </button>
+    <h2 />
+    <input
+      onChange={[Function]}
+      type="text"
+    />
+    <Test>
+      <div>
+        Testing
+      </div>
+    </Test>
+  </div>
+</App>
+`;
+
+exports[`<App/> shallow rendering matches the snapshot 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg"
+    />
+    <h1
+      className="App-title"
+    >
+      Welcome to React
+    </h1>
+  </header>
+  <ul>
+    <li>
+      Test 1
+    </li>
+    <li>
+      Test 2
+    </li>
+    <li>
+      Test 3
+    </li>
+  </ul>
+  <h3
+    className="blue"
+  >
+    Everyone Okay!
+  </h3>
+  <p
+    className="App-intro"
+  >
+    To get started, edit 
+    <code>
+      src/App.js
+    </code>
+     and save to reload.
+  </p>
+  <p
+    className="button-state"
+  >
+    No!
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    Click
+  </button>
+  <h2 />
+  <input
+    onChange={[Function]}
+    type="text"
+  />
+  <Test />
+</div>
+`;
